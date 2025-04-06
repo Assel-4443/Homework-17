@@ -1,0 +1,17 @@
+.app {
+    text-align: center;
+    transition: background 0.3s ease;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .app.light {
+    background: white;
+    color: black;
+  }
+  
+  .app.dark {
+    background: black;
+    color: white;
+  }
+  
