@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000"; 
+const API_URL = "https://express-server-pcab.onrender.com";  
+; 
 
 // Получить список уроков
 export const fetchLessons = async () => {
